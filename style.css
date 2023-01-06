@@ -1,0 +1,86 @@
+/* Header Style */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    background-image: url('../images/banner/banner3.png');    
+    background-repeat: no-repeat;
+    text-align: right;
+    color: white;
+    height: 1000px;
+    width: 100%;}
+button {
+        border-radius: 5px;
+        height: 64px;
+        font-family: ;
+        background-color: #ffffff;
+        color: #5b80d5;
+        padding: 10px 30px;        
+        font size: 50px;
+        border: 0;    
+        }
+#button {
+        border-radius: 5px;
+        height: 64px;
+        font-family: ;
+        background-color: #415cc6;
+        color: #ffffff;
+        padding: 10px 30px;        
+        font size: 50px;
+        border: 0; 
+}
+/* Main Style 2 part */
+/* Section-1 Style */
+.myFailure {
+    display: flex;
+    margin-top: 0%; 
+}
+.sec1part1 {
+    
+    }
+.sec1part2 {
+    margin: 200px;
+}
+
+
+/* Section-2 Style */
+.myPlan {
+    display: flex;
+    align-items: center;
+    margin: 0 300px;
+}
+.sec2 {
+    align-items: center;
+    width: 1141px;
+    height: 202.96px;
+    left: 230px;
+    top: 1889px;
+}
+.sec2part1 {
+    padding: 10px;
+    gap: 50px;
+    
+}
+
+/* Section-3 Style */
+.callNow {    
+    background-image: url(../images/watch.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-left: 13%;
+    color: white;
+    padding: 50px;
+    
+}
+.sec3part1 {
+    padding: 40px;
+    width: 300px;
+    font-weight: 900;
+}
+
+/* Footer Style */
+footer {
+    display: flex;
+}
+
+
