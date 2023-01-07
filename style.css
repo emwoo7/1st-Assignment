@@ -16,12 +16,11 @@ body {
 }
 button {
         border-radius: 5px;
-        height: 64px;
-        font-family: ;
+        height: 64px;        
         background-color: #ffffff;
         color: #5b80d5;
         padding: 10px 30px;        
-        font size: 50px;
+        font-size: 50px;
         border: 0;    
         }
 #button {
@@ -31,7 +30,7 @@ button {
         background-color: #415cc6;
         color: #ffffff;
         padding: 10px 30px;        
-        font size: 50px;
+        font-size: 50px;
         border: 0; 
 }
 /* Main Style 2 part */
@@ -69,7 +68,7 @@ button {
 
 /* Section-3 Style */
 .callNow {    
-    background-image: url(../images/watch.png);
+    background-image: url("./images/watch.png");
     height: 400px;
     background-repeat: no-repeat;
     margin-left: 13%;
