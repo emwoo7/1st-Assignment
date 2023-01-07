@@ -1,49 +1,100 @@
 /* Header Style */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
+
 .header {
-    background-image: url('../images/banner/banner3.png');    
-    background-repeat: no-repeat;
-    text-align: right;
+    background-image: url("./images/banner/banner3.png");
+    background-repeat: no-repeat;    
     color: white;
     height: 1000px;
     width: 100%;}
 .head1 {
-    width: 300px;
+    margin-left: 780px;
+    margin-top: 216px;
+    width: 525px;
+    height: 228px;
+    font-weight: 700;
+    font-size: 65px;
     text-align: right;
-    
 }
-button {
-        border-radius: 5px;
-        height: 64px;        
+.head2 {
+    text-align: right;
+    width: 494px;
+    height: 78px;
+    margin-top: 0px;
+    margin-left: 800px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.button {        
         background-color: #ffffff;
-        color: #5b80d5;
-        padding: 10px 30px;        
-        font-size: 50px;
-        border: 0;    
-        }
-#button {
-        border-radius: 5px;
-        height: 64px;
-        font-family: ;
-        background-color: #415cc6;
-        color: #ffffff;
-        padding: 10px 30px;        
+        color: #5b80d5;        
         font-size: 50px;
         border: 0; 
+        border-radius: 5px;
+        height: 64px;
+        width: 160px;
+        font-size: 20px;
+        font-weight: 600;
+        margin-left: 1145px;
+        margin-top: 0px;
+                }
+#button {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24.2px;                        
+        width: 170.11px;
+        height: 64px;
+        border: 0;
+        top: 2921.96px;
+        left: 1046px;
+        border-radius: 8px;
+        color: #ffffff;
+        background-color: #5b80d5;
+
 }
 /* Main Style 2 part */
 /* Section-1 Style */
 .myFailure {
     display: flex;
-    margin-top: 0%; 
+    gap: 100px;
+    margin-left: 150px;
+
+
 }
 .sec1part1 {
-    
+    width: 569px;
+    height: 723.3px;
+    top: 939px;
+    left: 206px;
     }
-.sec1part2 {
-    margin: 200px;
+.s1p2header {
+    width: 288px;
+    height: 94px;
+    top: 1178px;
+    left: 862;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.92px;
+    margin-top: 220px;
+}
+.s1p2para {
+    width: 416px;
+    height: 104px;
+    top: 1296px;
+    left: 862px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.s1p2list {
+    width: 349px;
+    height: 162px;
+    top: 1416px;
+    left: 862px;
 }
 
 
@@ -53,33 +104,42 @@ button {
     align-items: center;
     margin: 0 300px;
 }
-.sec2 {
-    align-items: center;
-    width: 1141px;
-    height: 202.96px;
-    left: 230px;
-    top: 1889px;
-}
-.sec2part1 {
-    padding: 10px;
-    gap: 50px;
-    
+.plan {
+    text-align: center;   
+    top: 1792px;   
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.92px;
 }
 
-/* Section-3 Style */
-.callNow {    
-    background-image: url("./images/watch.png");
-    height: 400px;
-    background-repeat: no-repeat;
-    margin-left: 13%;
-    color: white;
-    padding: 50px;
-    
+.sec2 {
+    display: flex;
+    gap: 100px; 
+    margin-left: 300px;
 }
-.sec3part1 {
-    padding: 40px;
-    width: 300px;
-    font-weight: 900;
+
+.s2p1img {
+    margin-left: 50px;
+}
+.s2p1h2 {
+    text-align: center;
+}
+.s2p1h4 {
+    text-align: center;
+}
+
+
+/* Section-3 Style */
+
+.s1h1 {
+    position: absolute;    
+    width: 459px;
+    height: 94px;
+    left: 294px;
+    top: 2280.96px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
 }
 
 /* Footer Style */
@@ -87,15 +147,23 @@ button {
     display: flex;
     background-color: black;
     color: wheat;
-    gap: 700px;
+    gap: 400px;
+    height: 500px;
+    width: 100%;
+    
     
 }
-.foot1, .foot2{     
+.foot1{     
     width: 300px;
-    margin-left: 50px;
+    margin-left: 200px;
     text-align: justify;
-
-
+    
+}
+.foot2{
+    width: 300px;
+    margin-left: 200px;
+    text-align: justify;
+    
 }
 input {
     height: 50px;
@@ -104,4 +172,6 @@ input {
     margin-bottom: 10px;
 }
 
-
+#button {
+    
+}
