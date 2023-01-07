@@ -9,6 +9,11 @@ body {
     color: white;
     height: 1000px;
     width: 100%;}
+.head1 {
+    width: 300px;
+    text-align: right;
+    
+}
 button {
         border-radius: 5px;
         height: 64px;
@@ -79,8 +84,25 @@ button {
 }
 
 /* Footer Style */
-footer {
+.foot {
     display: flex;
+    background-color: black;
+    color: wheat;
+    gap: 700px;
+    
+}
+.foot1, .foot2{     
+    width: 300px;
+    margin-left: 50px;
+    text-align: justify;
+
+
+}
+input {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 
