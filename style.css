@@ -61,8 +61,6 @@ body {
     display: flex;
     gap: 100px;
     margin-left: 150px;
-
-
 }
 .sec1part1 {
     width: 569px;
@@ -156,14 +154,12 @@ body {
 .foot1{     
     width: 300px;
     margin-left: 200px;
-    text-align: justify;
-    
+    text-align: justify;    
 }
 .foot2{
     width: 300px;
     margin-left: 200px;
-    text-align: justify;
-    
+    text-align: justify;    
 }
 input {
     height: 50px;
